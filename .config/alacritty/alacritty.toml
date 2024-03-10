@@ -9,9 +9,10 @@ import = [
 
 
 [window]
-decorations = "Full"
-dynamic_padding = false
+decorations = "None"
+dynamic_padding = true
 opacity = 0.95
+startup_mode = "Maximized"
 [window.dimensions]
 columns = 200
 lines = 30
