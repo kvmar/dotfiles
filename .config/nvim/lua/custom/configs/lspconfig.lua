@@ -12,7 +12,7 @@ lspconfig.clangd.setup {
   capabilities = capabilities,
 }
 
-local servers = {"tsserver", "tailwindcss", "eslint"}
+local servers = {"tsserver", "eslint", "tailwindcss"}
 
 for _, lsp in ipairs(servers) do
   lspconfig[lsp].setup {
