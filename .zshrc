@@ -1,3 +1,4 @@
+source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
 eval "$(starship init zsh)"
 HISTFILE=~/.zsh_history
 HISTSIZE=10000
