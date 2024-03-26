@@ -1,0 +1,14 @@
+[Unit]
+Description=Barrier Client Daemon
+Wants=graphical.target
+After=graphical.target
+
+[Service]
+Type=simple
+ExecStart=/usr/bin/barrierc --no-daemon --display :0 --debug DEBUG2 --log /tmp/barrier-service.log --disable-crypto --name pc 192.168.5.209:24800
+Environment=XAUTHORITY=/run/user/1000/gdm/Xauthority
+Restart=always
+RestartSec=3
+
+[Install]
+WantedBy=graphical.target
