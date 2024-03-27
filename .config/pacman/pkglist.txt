@@ -1,5 +1,6 @@
 alacritty
 alsa-utils
+altserver-bin
 baobab
 barrier
 base
@@ -12,9 +13,11 @@ code
 code-marketplace
 dkms
 dmenu
+docker
 efibootmgr
 epiphany
 evince
+fail2ban
 firefox
 gdm
 git
