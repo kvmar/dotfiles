@@ -95,6 +95,7 @@ rygel
 simple-scan
 smartmontools
 snapshot
+spotify
 stow
 sushi
 tecla
@@ -122,6 +123,7 @@ xorg-xinit
 yay
 yay-debug
 yelp
+zoxide
 zram-generator
 zsh
 zsh-completions
