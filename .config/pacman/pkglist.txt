@@ -68,6 +68,7 @@ htop
 intel-ucode
 iwd
 leetgo-bin
+lib32-nvidia-utils
 libpulse
 linux
 linux-firmware
@@ -80,6 +81,7 @@ neofetch
 neovim
 ntfs-3g
 nvidia-dkms
+nvidia-settings
 openssh
 orca
 os-prober

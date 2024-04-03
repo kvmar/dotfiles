@@ -21,7 +21,7 @@ x=5
 y=5
 
 [font]
-size = 20 
+size = 16 
 normal = { family = "JetBrainsMono Nerd Font", style = "regular" }
 bold = { family = "JetBrainsMono Nerd Font", style = "bold" }
 italic = { family = "JetBrainsMono Nerd Font", style = "italic" }
