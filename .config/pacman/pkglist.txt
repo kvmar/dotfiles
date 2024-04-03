@@ -10,6 +10,7 @@ catppuccin-gtk-theme-frappe
 catppuccin-gtk-theme-latte
 catppuccin-gtk-theme-macchiato
 catppuccin-gtk-theme-mocha
+cliphist
 code
 code-marketplace
 dkms
@@ -118,6 +119,7 @@ snapshot
 spotify
 stow
 sushi
+swaybg
 tecla
 timeshift
 tmux
