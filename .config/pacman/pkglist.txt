@@ -55,6 +55,7 @@ gnome-user-docs
 gnome-user-share
 gnome-weather
 go
+google-chrome
 grilo-plugins
 grub
 gst-plugin-pipewire
@@ -90,6 +91,8 @@ network-manager-applet
 ntfs-3g
 nvidia-dkms
 nvidia-settings
+obs-studio
+obs-teleport
 openssh
 orca
 os-prober
@@ -119,6 +122,7 @@ snapshot
 spotify
 stow
 sushi
+sway
 swaybg
 tecla
 timeshift
@@ -141,6 +145,7 @@ woeusb
 wpa_supplicant
 xclip
 xdg-desktop-portal-gnome
+xdg-desktop-portal-hyprland-git
 xdg-user-dirs-gtk
 xdg-utils
 xorg-xinit

@@ -1,5 +1,11 @@
-source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
-source ~/.zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+#source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
+#source ~/.zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+[[ -r ~/zsh_repos/znap/znap.zsh ]] ||
+    git clone --depth 1 -- \
+        https://github.com/marlonrichert/zsh-snap.git ~/zsh_repos/znap
+source ~/zsh_repos/znap/znap.zsh  # Start Znap
+znap source zsh-users/zsh-syntax-highlighting
+znap source zsh-users/zsh-autosuggestions
 eval "$(starship init zsh)"
 HISTFILE=~/.zsh_history
 HISTSIZE=10000
@@ -17,3 +23,4 @@ then
     tmux attach -t TMUX || tmux new -s TMUX
 fi
 eval "$(zoxide init zsh)"
+ZSH_AUTOSUGGEST_STRATEGY="completion"
