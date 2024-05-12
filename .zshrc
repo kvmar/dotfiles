@@ -22,5 +22,4 @@ if [ -z "$TMUX" ]
 then
     tmux attach -t TMUX || tmux new -s TMUX
 fi
-eval "$(zoxide init zsh)"
 ZSH_AUTOSUGGEST_STRATEGY="completion"
